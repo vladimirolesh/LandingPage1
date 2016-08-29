@@ -1,0 +1,981 @@
+/*------------------------CSS reset------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*------------------------CSS reset------------------------*/
+
+
+/*------------------Global styles------------------*/
+
+body{
+    height: 6500px;
+    width: auto;
+}
+/*------------------Header styles-----------------*/
+
+.header{
+    width: auto;
+    height: 643px;
+    background-image: url(image/bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.header_background{
+    position: absolute;
+    width: 1349px;
+    height: 80px;
+    background-color: black;
+    top: 0px;
+    opacity: 0.6;
+    z-index: 0;
+    
+}
+
+.wrap .col {
+    display: table-cell;
+}
+.wrap .redOne {
+    position: relative;
+    z-index: 10;
+    width: 300px;
+    height: 50px;
+}
+
+.wrap .redTwo {
+    position: relative;
+    z-index: 11;
+    right: 0px;
+    height: 50px;
+}
+
+.headerText{
+    width: 600px;
+    height: 300px;
+    margin-left: 400px;
+    margin-top: 240px;
+
+}
+
+.headerText p{
+    color: white;
+    display: inline;
+    text-align: center;
+}
+
+.h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7cm;
+    font-weight: bold;
+    position: inherit;
+    margin-left: 50px;
+}
+
+.h2{
+    color: rgb( 24, 207, 171);
+    position: relative;
+    left: 15px;
+}
+
+.h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4cm;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.h4{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 0.7cm;
+   position: absolute;
+   margin-top: 65px;
+}
+
+.buttons{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 150px;
+    top: 110px;
+    
+}
+
+
+.buttonExplore{
+  padding: 17px 25px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb( 24, 207, 171);
+  border: none;
+  border-radius: 5px;
+}
+
+.buttonPurchase{
+  padding: 17px 25px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: lightskyblue;
+  border: none;
+  border-radius: 5px;
+}
+
+/*------------------Logo styles-------------------*/
+
+.logo{
+    width: 400px;
+    height: 59px;
+}
+
+.logo a{
+    display: inline;
+    text-decoration: none;
+}
+
+.H {
+  font-size: 1.5cm;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-left: 100px;
+  position: relative;
+  top: 6px;
+  left: 150px;
+}
+
+.the{
+  font-size: 1.2cm;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb( 255, 255, 255);
+  text-align: left;
+  position: relative;
+  top: 8px;
+  left: 170px;
+}
+
+.Ham {
+  font-size: 1.2cm;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb( 24, 207, 171);
+  text-align: left;
+  position: relative;
+  top: 8px;
+  left: 165px;
+}
+
+.rect{
+    width: 1px;
+    height: 1px;
+}
+
+.rect img{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    z-index: 9;
+    left: 240px;
+}
+
+/*-------------------Menu styles------------------*/
+
+.menu{
+    height: 59px;
+    margin-top: 0px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 280px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.menu a:hover{
+    color: rgb( 24, 207, 171);
+}
+
+.menu img{
+    height: 25px;
+    width: 25px;
+}
+
+/*------------------fourOption styles-----------------*/
+
+.options{
+    width: auto;
+    height: 300px;
+}
+
+.options p{
+    margin-top: 60%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.options img{
+    margin-left: 140px;
+    margin-top: 70px;
+    position: absolute;
+}
+
+.options-block{
+    width: 327px;
+    height: 277px;    
+    padding: 5px; /* Поля вокруг текста */
+    float: left; 
+    
+}
+
+.options-color-dark{
+    background-color: rgb( 28, 42, 51);
+    color: rgb( 24, 207, 171);
+
+}
+
+.options-color-light{
+    background-color: rgb( 24, 207, 171);
+    color: rgb( 28, 42, 51);
+
+}
+
+/*-------------------------creativeBlock styles--------------------*/
+
+.creativeBlock{
+    width: 900px;
+    height: 600px;
+    margin: auto
+}
+
+.creativeHeader{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.createOne{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.createOne h1{
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.createOne h1:hover{
+    color: rgb( 24, 207, 171);
+    cursor: pointer;
+}
+.createOne div{
+    width: 250px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 45px;
+    font-size: 12px;
+}
+
+.createTwo{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.createTwo h1{
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.createTwo h1:hover{
+    color: rgb( 24, 207, 171);
+    cursor: pointer;
+}
+
+.createTwo div{
+    width: 250px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 45px;    
+    font-size: 12px;
+}
+
+.createThree{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.createThree h1{
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.createThree h1:hover{
+    color: rgb( 24, 207, 171);
+    cursor: pointer;
+}
+
+.createThree div{
+    width: 250px;
+    height: auto;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 45px;
+    font-size: 12px;
+}
+
+.decor{
+    width: 900px;
+    height: 30px;
+}
+
+.decor img{
+    margin-left: 400px;
+}
+
+/*--------------------aboutCompany styles--------------------*/
+
+.aboutCompany{
+    width: auto;
+    height: 600px;
+    background-image: url(image/bg-2.jpg);
+    
+}
+
+.aboutHead{
+    position: relative;
+    width: 500px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 32px;
+    margin-left: 700px;
+    top: 100px;
+}
+
+.our{
+    width: 250px;
+    height: 50px;
+    margin: auto;
+    
+}
+.our p{
+    float: left;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+.our p:hover{
+    background-color: rgb( 24, 207, 171);
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.trans{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-left: 750px;
+    margin-top: 100px;
+}
+
+.trans1 {
+  width: 400px;
+  background: rgb( 156, 93, 165);
+  color: #FFF;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  animation: timing 1s 1;
+  text-align: center;    
+}
+
+.trans2 {
+  width: 400px;
+  background: rgb( 17, 176, 222);
+  color: #FFF;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  animation: timing 1s 1;
+  text-align: center;
+}
+
+.trans3 {
+  width: 400px;
+  background: rgb( 214, 127, 127);
+  color: #FFF;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  animation: timing 1s 1;
+  text-align: center;
+}
+  
+.trans4 {
+  width: 400px;
+  background: rgb( 32, 188, 157);
+  color: #FFF;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  animation: timing 1s 1;
+  text-align: center;
+}
+
+.trans5 {
+  width: 400px;
+  background: rgb( 187, 138, 54);
+  color: #FFF;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  animation: timing 1s 1;
+  text-align: center;
+}
+
+@keyframes timing {
+  from {
+    width:100px;
+  }
+      
+  to {
+    width:400px;
+      text-align: center;
+  }
+}
+
+/*--------------------our-work styles--------------------*/
+.our-work{
+    width: auto;
+    height: 850px;
+    background-color: azure;
+}
+
+.our-work-top{
+    height: 70px;
+}
+
+.our-work-top h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+.our-work-top img{
+    margin-left: 620px;
+    text-align: center;
+}
+
+.our-work-navigation{
+    width: 500px;
+    height: 50px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.our-work-navigation th{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    border: 1px solid darkgray;
+    width: 100px;
+    height: 30px;
+    padding: 3px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.our-work-navigation th:hover{
+    background-color: rgb( 24, 207, 171);
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.our-work-pics{
+    height: 800px;
+    width: 1000px;
+    margin-left: 270px;
+    margin-top: 30px;
+}
+
+.our-work-pics img:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition-duration: 0.3s;
+}
+
+.load-more-button{
+  padding: 17px 25px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb( 24, 207, 171);
+  border: none;
+  border-radius: 5px;
+}
+
+.load-more{
+  margin-top: 50px;
+  margin-left: 335px;
+}
+
+/*--------------------our-work styles--------------------*/
+.our-services-decor{
+    width: auto;
+    height: 3px;
+    background-color: black;
+}
+
+.our-services-top h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+.our-services-top img{
+    margin-left: 630px;
+    text-align: center;
+}
+
+.our-services-navigation{
+    width: 1000px;
+    height: 60px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.our-services-navigation th{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    border: 1px solid darkgray;
+    width: 200px;
+    height: 50px;
+    padding: 3px;
+    text-align: center;
+    line-height: 50px;
+    background-color: azure;
+}
+
+.our-services-navigation th:hover{
+    background-color: rgb( 24, 207, 171);
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.our-services-pic{
+    margin-left: 175px;
+    margin-top: 20px;
+    float: left;
+}
+
+.our-services-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    width: 830px;
+    margin-left: 345px;
+    margin-top: 20px;
+    position: absolute;
+    
+}
+
+.our-services-bg {
+    width: auto;
+    height: 800px;
+}
+
+.our-services-bg img{
+    margin-top: 100px;
+}
+
+.our-services-text2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+    font-weight: bold;
+    color: whitesmoke;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 40px;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+.our-services-text3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: whitesmoke;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 230px;
+}
+
+.purchase-now{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 600px;
+}
+
+.purchase-now-button{
+  padding: 17px 25px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb( 24, 207, 171);
+  border: none;
+  border-radius: 5px;
+}
+
+/*----------------------statistic styles----------------------*/
+
+.statistic{
+    width: auto;
+    height: 260px;
+    margin-top: 70px;
+}
+
+.statistic-decor{
+    width: 337px;
+    height: 7px;
+    float: left;
+}
+
+.statistic h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+.statistic p{
+    margin-top: 60%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.statistic img{
+    margin-left: 115px;
+    margin-top: 40px;
+    position: absolute;
+}
+
+.statistic-block{
+    width: 327px;
+    height: 237px;    
+    padding: 5px; /* Поля вокруг текста */
+    float: left;     
+}
+
+.statistic-color-dark{
+    background-color: rgb( 28, 42, 51);
+    color: rgb( 24, 207, 171);
+}
+
+.statistic-color-light{
+    background-color: rgb( 24, 207, 171);
+    color: rgb( 28, 42, 51);
+}
+
+.statistic-block-text{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 115px;
+    
+}
+
+/*--------------------pricing styles--------------------*/
+
+.pricing-table{
+    height: 600px;
+    width: auto;
+    margin-left: 206px;
+    margin-top: 50px;
+}
+
+.pricing-table table{
+    width: auto;
+    height: auto;    
+    font-size: 12px;
+    float: left;
+    margin: 1px;
+}
+
+.table:hover{    
+}
+
+.pricing-table table:hover {
+    transform: scale(1.05);
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+
+.pricing-table table:hover .pricing-table-price {
+    background-color: rgb( 24, 207, 171);
+    transition-duration: 0.6s;
+}
+.pricing-table table:hover .buy-now-button {
+    background-color: rgb( 24, 207, 171);
+    transition-duration: 0.6s;
+}
+
+.pricing-table table:hover .pricing-table-name {
+    color: rgb( 24, 207, 171);
+    transition-duration: 0.6s;
+}
+
+.pricing-table th{
+    padding: 15px;
+    border: 1px solid darkgray;
+    display: block;    
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pricing-table-price{
+    background-color: rgb( 28, 42, 51);
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    width: 200px;
+    height: 50px;    
+    line-height: 50px;
+}
+
+.pricing-table-price span{
+    font-size: 8px;
+}
+
+.pricing-table-name{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.buy-now-button{
+  padding: 17px 25px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb( 28, 42, 51);
+  border: none;
+  border-radius: 5px;
+}
+
+.our-pricing-decor{
+    width: auto;
+    height: 3px;
+    background-color: black;
+}
+
+.our-pricing-top h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+.our-pricing-top img{
+    margin-left: 630px;
+    text-align: center;
+}
+/*------------------------------animation------------------------------------*/
+.wrapper{
+    width: 1600px;
+    margin-left: 128px;
+    margin-top: 59px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.box{
+    width: 197px;
+    float: left;
+    padding-right: 140px;
+}
+
+/*---------------------people-say styles---------------------*/
+.people-say{
+    width: auto;
+    height: 800px;
+}
+
+.people-say-text{
+    width: auto;
+    position: absolute;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    margin-top: 100px;
+    margin-left: 170px;
+    text-align: center;
+}
+
+.paragraph{
+    font-size: 16px;
+}
+
+.people-say-min{
+    position: absolute;
+    margin-left: 310px;
+}
+
+.people-say-min img{
+    margin-top: 20px;
+    padding-right: 40px;
+}
+
+.paragraph-1{
+    font-size: 16px;
+}
+
+.paragraph-2{
+    font-size: 12px;
+}
+
+/*---------------------get-in-touch styles---------------------*/
+
+.get-in-touch input{
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.map{
+    float: left;
+    margin-left: 50px;
+}
+
+.txt-1{
+    height: 30px;
+    padding: 0 0 0px;
+    
+}
+
+.txt-2{
+    height: 30px;
+    padding: 0 0 0px;
+}
+
+.txt-3{
+    padding: 0 0 100px;
+}
+
+.keep-in-text{
+    width: 400px;
+    position: absolute;
+    margin-left: 500px;
+    color: rgb( 28, 42, 51);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+.forms{
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 80px;
+}
+
+.send-request-button{
+  padding: 17px 25px;
+  font-size: 12px;
+  width: 354px; 
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb( 24, 207, 171);
+  border: none;
+  border-radius: 5px;
+}
+
+.get-in-touch{
+    width: auto;
+    height: 500px;
+}
+
+/*------------------------footer styles-----------------------*/
+
+.footer{
+    width: auto;
+    height: 80px;
+    background-color: rgb( 28, 42, 51);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 80px;
+}
+
+.footer span{
+    color: rgb( 24, 207, 171);
+}
